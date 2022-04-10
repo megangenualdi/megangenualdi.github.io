@@ -1,0 +1,71 @@
+body {
+ background-color:#f7f2e8
+}
+#main-header {
+font-family: "Oooh Baby";
+font-size: 30px;
+text-align: center;
+padding-bottom: 15px;
+color:rgb(68, 61, 61)
+}
+header{
+background: linear-gradient(177deg,#aeeeee, #E9DAC1);
+padding-top: 20px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #D57E7E;
+  overflow: hidden;
+  font-family: "Caveat";
+  border-radius: 25px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #D57E7E;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #D57E7E;
+  color: white;
+}
+.my-container {
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: row;
+}
+#about-me, #languages, .projects{
+  width: 500px;
+  background-color: #F7ECDE;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 8px #96b6b5;
+  margin-left: 35px;
+}
+.content-title {
+ text-align: left;
+ font-family: "Caveat";
+ font-size: larger;
+}
+.image {
+  width: 70px;
+  height: 70px;
+}
+.projects {
+  margin-top: 35px;
+}
